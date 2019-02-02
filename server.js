@@ -9,8 +9,8 @@ app.get('/', function (req, res) {
     res.send('Hello World!!')
 })
 app.post('/webhook', middleware(config), (req, res) => {
-  req.body.events // webhook event objects
-  req.body.destination // user ID of the bot (optional)
+  //req.body.events // webhook event objects
+  //req.body.destination // user ID of the bot (optional)
   res.send("Webhook success")
 })
 
