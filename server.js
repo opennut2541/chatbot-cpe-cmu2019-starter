@@ -27,7 +27,7 @@ app.post('/webhook', middleware(config), (req, res) => {
       })
     }
 
-app.set('port', (process.env.PORT || 4000))
+app.set('port', 4000)
   })
 app.listen(app.get('port'), function () {
   console.log('run at port', app.get('port'))
