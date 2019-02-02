@@ -28,7 +28,7 @@ app.post('/webhook', middleware(config), (req, res) => {
             "altText": "This is a buttons template",
             "template": {
                 "type": "buttons",
-                "thumbnailImageUrl": "https://vignette.wikia.nocookie.net/line/images/b/bb/2015-brown.png/revision/latest?cb=20150808131630",
+                "thumbnailImageUrl": "https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg",
                 "imageAspectRatio": "rectangle",
                 "imageSize": "cover",
                 "imageBackgroundColor": "#5C42F4",
