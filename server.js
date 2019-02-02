@@ -48,11 +48,11 @@ app.post('/webhook', middleware(config), (req, res) => {
                     {
                       "type": "message",
                       "label": "Add to cart",
-                      "text": "no no no"
+                      "text": "ไม่ขายครับ"
                     },
                     {
                       "type": "uri",
-                      "label": "View detail",
+                      "label": "ดูไหมครับ",
                       "uri": "http://google.com"
                     }
                 ]
