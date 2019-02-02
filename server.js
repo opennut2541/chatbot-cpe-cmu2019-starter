@@ -30,7 +30,7 @@ app.post('/webhook', middleware(config), (req, res) => {
                 "type": "buttons",
                 "thumbnailImageUrl": "https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg",
                 "imageAspectRatio": "rectangle",
-                "imageSize": "content",
+                "imageSize": "cover",
                 "imageBackgroundColor": "#5C42F4",
                 "title": "Charin Sansri",
                 "text": "เลือกซักอย่าง",
