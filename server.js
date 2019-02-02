@@ -31,7 +31,7 @@ app.post('/webhook', middleware(config), (req, res) => {
                 "thumbnailImageUrl": "https://vignette.wikia.nocookie.net/line/images/b/bb/2015-brown.png/revision/latest?cb=20150808131630",
                 "imageAspectRatio": "rectangle",
                 "imageSize": "cover",
-                "imageBackgroundColor": "#FFFFFF",
+                "imageBackgroundColor": "#000000",
                 "title": "Menu",
                 "text": "Please select",
                 "defaultAction": {
