@@ -3,13 +3,10 @@ const middleware = require('@line/bot-sdk').middleware
 const app = express()
 const Client = require('@line/bot-sdk').Client;
 const restClient = new (require('node-rest-client').Client)
-
-require('dotenv').config()
-
+//require('dotenv').config()
 const config = {
   channelAccessToken: 'n88hInBJRyYcNr6+hH9xfd8CVmjS1aChz/ddo2cZRTMFDBk+BYDGJG1Cys9vX6Z54V35K8lFPsXDofI8Jkh/YbfC5DxW2NlIMMRTTMUB31isF7VpFNsNzz8a57iXCC1Ejnc6qEPlZR+RP6BkFM1ETgdB04t89/1O/w1cDnyilFU=',
   channelSecret: '1e12d29941fc79f3bfdd367a18045df9'
-  
 }
 const client = new line.Client(config);
 
@@ -34,7 +31,7 @@ function handleEvent(event) {
 
 function handleLocationEvent(event) {
   return new Promise((resolve, reject) => {
-    restClient.get(`${process.env.apiUrl}?lat=${event.message.latitude}&long=${event.message.longitude}`, (data, response) => {
+    restClient.get(`https://fathomless-reaches-36581.herokuapp.com/api?lat=${event.message.latitude}&long=${event.message.longitude}`, (data, response) => {
       if (data) {
         const pinData = data.map(row => ({
           "thumbnailImageUrl": row.aqi.icon,
