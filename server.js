@@ -28,10 +28,10 @@ app.post('/webhook', middleware(config), (req, res) => {
             "altText": "This is a buttons template",
             "template": {
                 "type": "buttons",
-                "thumbnailImageUrl": "https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg",
+                "thumbnailImageUrl": "https://vignette.wikia.nocookie.net/line/images/b/bb/2015-brown.png/revision/latest?cb=20150808131630",
                 "imageAspectRatio": "rectangle",
                 "imageSize": "cover",
-                "imageBackgroundColor": "#000000",
+                "imageBackgroundColor": "#5C42F4",
                 "title": "Charin Sansri",
                 "text": "Please select",
                 "defaultAction": {
