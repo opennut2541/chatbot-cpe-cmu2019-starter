@@ -37,7 +37,7 @@ app.post('/webhook', middleware(config), (req, res) => {
                 "defaultAction": {
                     "type": "uri",
                     "label": "View detail",
-                    "uri": "http://google.com/"
+                    "uri": "https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg"
                 },
                 "actions": [
                     {
