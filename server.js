@@ -41,9 +41,9 @@ app.post('/webhook', middleware(config), (req, res) => {
                 },
                 "actions": [
                     {
-                      "type": "postback",
+                      "type": "message",
                       "label": "มุขนี้ซื้อ",
-                      "data": "action=buy&itemid=123"
+                      "text": "ใจเย็นไอ้สอง"
                     },
                     {
                       "type": "uri",
