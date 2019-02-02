@@ -46,14 +46,14 @@ app.post('/webhook', middleware(config), (req, res) => {
                       "data": "action=buy&itemid=123"
                     },
                     {
-                      "type": "message",
-                      "label": "ซื้อไหมครับ",
-                      "text": "ไม่ขายครับ"
+                      "type": "uri",
+                      "label": "Facebook",
+                      "uri": "https://www.facebook.com/NuTCharinSunsri"
                     },
                     {
                       "type": "uri",
-                      "label": "ดูไหมครับ",
-                      "uri": "http://facebook.com"
+                      "label": "CPE",
+                      "uri": "http://cpe.eng.cmu.ac.th/2013/"
                     }
                 ]
             }
