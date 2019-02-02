@@ -42,18 +42,18 @@ app.post('/webhook', middleware(config), (req, res) => {
                 "actions": [
                     {
                       "type": "postback",
-                      "label": "Buy",
+                      "label": "มุขนี้ซื้อ",
                       "data": "action=buy&itemid=123"
                     },
                     {
                       "type": "message",
-                      "label": "Add to cart",
+                      "label": "ซื้อไหมครับ",
                       "text": "ไม่ขายครับ"
                     },
                     {
                       "type": "uri",
                       "label": "ดูไหมครับ",
-                      "uri": "http://google.com"
+                      "uri": "http://facebook.com"
                     }
                 ]
             }
